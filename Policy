@@ -1,76 +1,209 @@
-# Privacy Policy for WageWyse
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy · WageWyse</title>
+<style>
+  :root {
+    --fg: #1f2328;
+    --fg-muted: #59636e;
+    --bg: #ffffff;
+    --border: #d1d9e0;
+    --link: #0969da;
+    --code-bg: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #f0f6fc;
+      --fg-muted: #9198a1;
+      --bg: #0d1117;
+      --border: #3d444d;
+      --link: #4493f8;
+      --code-bg: #151b23;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 16px 96px;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 650;
+    margin: 0 0 6px;
+  }
+  .subtitle {
+    color: var(--fg-muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 650;
+    margin: 36px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  p { margin: 0 0 14px; font-size: 16px; }
+  ul { margin: 0 0 14px; padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: var(--code-bg);
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 85%;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--fg-muted);
+    font-size: 13px;
+  }
+  .toc {
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .toc p { margin: 0 0 8px; font-weight: 600; }
+  .toc ul { margin: 0; padding-left: 20px; }
+  .toc li { margin-bottom: 3px; }
+</style>
+</head>
+<body>
+<div class="wrapper">
 
-**Last updated: 17 September 2026**
+<header>
+  <h1>Privacy Policy for WageWyse</h1>
+  <p class="subtitle">Last updated: 20 September 2026</p>
+</header>
 
-WageWyse is developed by **Himbocodes**.
+<p>WageWyse is developed by <strong>Himbocodes</strong> ("we", "us", "our"). If you have any questions about this
+Privacy Policy or our data practices, contact us at
+<a href="mailto:himbocodes@gmail.com">himbocodes@gmail.com</a>.</p>
 
-If you have any questions about this Privacy Policy, you can contact us at:
+<p>WageWyse is a rota, pay and budget planning app. It is designed to work without requiring you to create an
+account or hand over personal information directly to us.</p>
 
-**[himbocodes@gmail.com](mailto:himbocodes@gmail.com)**
+<nav class="toc">
+  <p>On this page</p>
+  <ul>
+    <li><a href="#information-we-collect">Information We Collect</a></li>
+    <li><a href="#in-app-purchases">In-App Purchases</a></li>
+    <li><a href="#tracking">Tracking</a></li>
+    <li><a href="#data-sharing">Data Sharing</a></li>
+    <li><a href="#data-stored-on-your-device">Data Stored on Your Device</a></li>
+    <li><a href="#data-retention-and-deletion">Data Retention and Deletion</a></li>
+    <li><a href="#your-rights">Your Rights</a></li>
+    <li><a href="#childrens-privacy">Children's Privacy</a></li>
+    <li><a href="#data-security">Data Security</a></li>
+    <li><a href="#changes-to-this-privacy-policy">Changes to This Privacy Policy</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-## Information We Collect
+<h2 id="information-we-collect">Information We Collect</h2>
+<p>WageWyse does <strong>not</strong> require an account and does <strong>not</strong> collect your name, email
+address, phone number, contacts, or location.</p>
+<p>All shift, pay and budget information you enter is stored <strong>locally on your device</strong>. This data is
+used solely to provide the app's functionality and is never transmitted to Himbocodes.</p>
+<p>We do not use analytics or crash-reporting services, and no software development kit (SDK) other than
+RevenueCat (described below) is integrated into the app.</p>
 
-WageWyse is designed to operate without requiring users to create an account or provide personal information directly to us.
+<h2 id="in-app-purchases">In-App Purchases</h2>
+<p>WageWyse uses <strong>RevenueCat</strong> to process and verify in-app purchases and subscriptions.</p>
+<p>When you make or restore a purchase, RevenueCat processes:</p>
+<ul>
+  <li>An anonymous app-user identifier (not linked to your name or email).</li>
+  <li>Purchase and transaction details supplied by the Apple App Store or Google Play (such as product ID,
+      transaction ID and purchase/renewal dates).</li>
+  <li>Basic technical information needed to verify your entitlement to paid features (such as device platform
+      and app version).</li>
+</ul>
+<p>This information is used only to verify your purchase and determine access to paid features — never for
+advertising.</p>
+<p>Because purchases are made through Apple's App Store or Google Play, your transaction is also subject to
+<strong>Apple's</strong> or <strong>Google's</strong> own privacy policy, which governs the payment information
+they hold.</p>
+<p>RevenueCat's own privacy practices are described at:
+<a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">revenuecat.com/privacy</a></p>
 
-WageWyse does not use advertising services and does not collect personal information such as your name, email address, phone number, contacts, or location through the app.
+<h2 id="tracking">Tracking</h2>
+<p>WageWyse does <strong>not</strong> track you across other companies' apps or websites, and contains no
+advertising or advertising-tracking services.</p>
 
-The app stores certain information locally on your device using device storage. This information is used solely to provide the functionality of the app and is not directly transmitted to Himbocodes.
+<h2 id="data-sharing">Data Sharing</h2>
+<p>Himbocodes does not sell or rent your personal information.</p>
+<p>The only third party WageWyse shares any information with is RevenueCat, for the purchase-verification
+purpose described above.</p>
 
-## In-App Purchases
+<h2 id="data-stored-on-your-device">Data Stored on Your Device</h2>
+<p>WageWyse stores your shifts, pay settings, budget data and app preferences locally on your device to provide
+the app's features.</p>
+<p>This data remains on your device unless you delete it through the app, clear the app's storage, or uninstall
+the app. It is not automatically backed up by us, so uninstalling the app or clearing its storage will
+permanently remove it.</p>
 
-WageWyse uses **RevenueCat** to process and verify in-app purchases and subscriptions.
+<h2 id="data-retention-and-deletion">Data Retention and Deletion</h2>
+<p>Since WageWyse does not require an account and stores data locally, we hold no copy of your app data to
+retain or delete on our end.</p>
+<p>You can delete your locally stored data at any time by clearing the app's storage or uninstalling the app.
+Information RevenueCat holds in connection with a purchase (such as transaction records) is retained by
+RevenueCat under its own retention practices — see its privacy policy linked above, or contact us and we will
+help direct your request.</p>
 
-When you make or restore a purchase, RevenueCat may process information relating to your purchase and an anonymous identifier associated with your use of the app. This information is used to verify your purchase and determine your entitlement to paid features.
+<h2 id="your-rights">Your Rights</h2>
+<p>Depending on where you live, you may have rights over the limited information processed on your behalf by
+RevenueCat, including the right to request access to, correction of, or deletion of that information, and the
+right to object to its processing. Because RevenueCat may process this information outside your country of
+residence (including in the United States), transfers are made subject to RevenueCat's own safeguards, described
+in its privacy policy.</p>
+<p>To exercise any of these rights, contact us at
+<a href="mailto:himbocodes@gmail.com">himbocodes@gmail.com</a> and we will assist or direct you to the
+appropriate channel.</p>
 
-RevenueCat may process purchase information and technical information associated with the app. RevenueCat's own privacy practices are described in its Privacy Policy:
+<h2 id="childrens-privacy">Children's Privacy</h2>
+<p>WageWyse is not directed at, and is not intended for use by, children under the age of 13 (or the minimum age
+required by local law in your region). We do not knowingly collect personal information from children. If you
+believe a child has provided us with information, contact us and we will address it.</p>
 
-https://www.revenuecat.com/privacy/
+<h2 id="data-security">Data Security</h2>
+<p>We take reasonable measures to protect information handled by WageWyse. Locally stored information is subject
+to the security of your own device. Information transmitted to RevenueCat in connection with purchase
+verification is handled according to RevenueCat's own security and privacy practices.</p>
 
-We do not use purchase information for advertising.
+<h2 id="changes-to-this-privacy-policy">Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. Material changes will be reflected here with an updated
+"Last updated" date; where required by law, we will provide additional notice.</p>
 
-## Data Stored on Your Device
+<h2 id="contact">Contact</h2>
+<p><strong>Himbocodes</strong><br>
+<a href="mailto:himbocodes@gmail.com">himbocodes@gmail.com</a></p>
 
-WageWyse may store information locally on your device to provide its features and remember your app settings or data.
+<footer>
+  <p>© 2026 Himbocodes. This page is served as part of the WageWyse GitHub Pages site.</p>
+</footer>
 
-This locally stored information remains on your device unless you delete it through the app, clear the app's storage, or uninstall the app.
-
-## Data Sharing
-
-Himbocodes does not sell users' personal information.
-
-Apart from the information processed by RevenueCat in connection with purchase verification, WageWyse does not intentionally share user information with third parties.
-
-## Advertising
-
-WageWyse does not contain advertising and does not use advertising or advertising-tracking services.
-
-## User Accounts
-
-WageWyse does not require users to create an account.
-
-## Data Security
-
-We take reasonable measures to protect information handled by WageWyse. Information stored locally is subject to the security of the user's device.
-
-Information transmitted to RevenueCat in connection with purchase verification is handled according to RevenueCat's security and privacy practices.
-
-## Data Deletion
-
-Because WageWyse does not require user accounts and stores app data locally on the user's device, users can remove locally stored app data by clearing the app's storage or uninstalling the app.
-
-For questions regarding information processed by RevenueCat in connection with purchases, please contact us at **[himbocodes@gmail.com](mailto:himbocodes@gmail.com)**.
-
-## Children's Privacy
-
-WageWyse does not knowingly collect personal information from children. The app does not require users to create accounts or provide personal information to use its core functionality.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Any changes will be reflected in the updated version of this policy, together with a new "Last updated" date.
-
-## Contact
-
-If you have questions about this Privacy Policy or WageWyse's privacy practices, please contact:
-
-**Himbocodes**
-**[himbocodes@gmail.com](mailto:himbocodes@gmail.com)**
+</div>
+</body>
+</html>
